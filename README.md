@@ -16,6 +16,7 @@ This has been tested with the following dependencies:
   - Example URL: `https://{web-app-name}.azurewebsites.net/apps/{app-name}`
 4. Set ui-live credentials values. Credentials come from FTP deployment credentials from destination Azure Web App. Please contact [@brbarnett](https://github.com/brbarnett) for RP credentials
 5. Setup gulpfile.js file to match your file structure. Globs should be able to find all of your static content
-6. Run command: `$ gulp push-all`
+6. Run command `$ gulp push-all` to perform an initial push of your static files to the Web App
+7. Navigate to `https://{web-app-name}.azurewebsites.net/apps/{app-name}`
 
 For subsequent development, run command `$ gulp watch` to watch file system for changes and upload to Azure on the fly
