@@ -2,3 +2,5 @@
 *.credentials.json
 
 *.css
+
+node_modules/
