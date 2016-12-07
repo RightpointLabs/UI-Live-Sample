@@ -14,7 +14,7 @@ This has been tested with the following dependencies:
 2. Run command: `$ npm install`
 3. Set ui-live config values. "app-name" needs to be unique, as this will ultimately determine your public URL
   - Example URL: `https://{web-app-name}.azurewebsites.net/apps/{app-name}`
-4. Set ui-live credentials values. Credentials come from FTP deployment credentials from destination Azure Web App. Please contact @brbarnett for RP credentials
+4. Set ui-live credentials values. Credentials come from FTP deployment credentials from destination Azure Web App. Please contact [@brbarnett](https://github.com/brbarnett) for RP credentials
 5. Setup gulpfile.js file to match your file structure. Globs should be able to find all of your static content
 6. Run command: `$ gulp push-all`
 
