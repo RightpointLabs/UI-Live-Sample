@@ -7,6 +7,8 @@ gulp.task('html', function () {
     copyHtml();
 });
 
+gulp.task('push-all', ['html', 'sass', 'static']);
+
 gulp.task('sass', function () {
     compileSass();
 });
