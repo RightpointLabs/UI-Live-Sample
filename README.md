@@ -1,3 +1,5 @@
+[deprecated]
+
 # UI-Live-Sample
 UI Live makes it trivial to upload code live via gulp watch + FTP to an existing Azure Web App with defined FTP deployment credentials.
 
